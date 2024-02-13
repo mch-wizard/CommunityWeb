@@ -10,6 +10,9 @@ import Bottombar from "@/components/shared/Bottombar";
 export const metadata: Metadata = {
 	title: "CommunityWeb",
 	description: "A project for testing solutions for a social media platform.",
+	icons: {
+		icon: '/favicon.png',
+	}
 };
 
 const ibmplexsens = IBM_Plex_Sans({ subsets: ["latin"], weight: "400" });
