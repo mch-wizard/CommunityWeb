@@ -28,7 +28,7 @@ export default function RootLayout({
 				<body className={ibmplexsens.className}>
 					<Topbar />
 
-					<main>
+					<main className='flex flex-row'>
 						<LeftSidebar />
 
 						<section className='main-container'>
