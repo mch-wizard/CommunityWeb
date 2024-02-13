@@ -1,7 +1,7 @@
 export default function Home() {
-  return (
-    <main>
-      <h1>CommunityWeb</h1>
-    </main>
-  );
+	return (
+		<>
+			<h1 className='head-text text-left'>Home</h1>
+		</>
+	);
 }
