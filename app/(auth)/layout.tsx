@@ -4,8 +4,11 @@ import "../globals.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Auth",
+	title: "CommunityWeb",
 	description: "A project for testing solutions for a social media platform.",
+	icons: {
+		icon: '/favicon.png',
+	}
 };
 
 const ibmplexsens = IBM_Plex_Sans({ subsets: ["latin"], weight: "400" });
